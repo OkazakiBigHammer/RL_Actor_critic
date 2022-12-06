@@ -28,7 +28,7 @@ The second version is useful for algorithms like [PPO](https://arxiv.org/pdf/170
 
 Note that your project submission need only solve one of the two versions of the environment. 
 
-#### Option 1: Solve the First Version
+#### Option 1: Solve the First Version (This is repo works on this case!)
 
 The task is episodic, and in order to solve the environment,  your agent must get an average score of +30 over 100 consecutive episodes.
 
@@ -65,6 +65,8 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Instructions
 
 Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+The training is done in the notebook. 
+The agent's weight is saved in checkpoint_actor and checkpoint_critic
 
 ### (Optional) Challenge: Crawler Environment
 
