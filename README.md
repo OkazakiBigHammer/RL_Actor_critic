@@ -50,11 +50,11 @@ The training is done in the notebook.
 The agent's weight is saved in checkpoint_actor and checkpoint_critic.
 
 ### Files
-Continuous_Control.ipynb: Notebook used for training the agent.
-ddpg_agent.py: Create an Agent class that interacts with and learns from the environment, with parameters for the Actor, Critic Networks and OU process....
-report.pdf: Result and some backgrounds for the project.
-checkpoint_actor: The trained parameter for Actor network. The result of running Continuous_Control.ipynb
-checkpoint_critic: The trained parameter for Critic network. Continuous_Control.ipynb
+- `Continuous_Control.ipynb`: Notebook used for training the agent.
+- `ddpg_agent.py`: Create an Agent class that interacts with and learns from the environment, with parameters for the Actor, Critic Networks and OU process....
+- `report.pdf`: Result and some backgrounds for the project.
+- `checkpoint_actor`: The trained parameter for Actor network. The result of running Continuous_Control.ipynb
+- `checkpoint_critic`: The trained parameter for Critic network. Continuous_Control.ipynb
 
 ### How to train?
 Please simply run Continuous_Control.ipynb
